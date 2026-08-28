@@ -1,0 +1,20 @@
+{
+  "users": [
+    {"id": 1, "name": "Alex Morgan", "email": "alex@sprintdesk.io", "role": "Product Designer", "avatar": "AM"},
+    {"id": 2, "name": "Jordan Lee", "email": "jordan@sprintdesk.io", "role": "Frontend Engineer", "avatar": "JL"},
+    {"id": 3, "name": "Maya Patel", "email": "maya@sprintdesk.io", "role": "Product Manager", "avatar": "MP"},
+    {"id": 4, "name": "Sam Rivera", "email": "sam@sprintdesk.io", "role": "Backend Engineer", "avatar": "SR"}
+  ],
+  "tasks": [
+    {"id":"SD-101","title":"Redesign onboarding flow","description":"Create a more welcoming first-run experience that gets new teams to their first sprint quickly.","status":"in-progress","priority":"high","assignee":"Alex Morgan","dueDate":"2024-06-18","labels":["Design","Growth"],"comments":[{"id":"c1","author":"Maya Patel","text":"The first-run metrics are ready to review.","createdAt":"2024-06-10T09:20:00Z"}]},
+    {"id":"SD-102","title":"Build notification center","description":"Surface actionable updates in one focused place with read states and lightweight polling.","status":"review","priority":"medium","assignee":"Jordan Lee","dueDate":"2024-06-20","labels":["Feature","Frontend"],"comments":[]},
+    {"id":"SD-103","title":"Audit API error states","description":"Review loading, empty and error states across the main workspace.","status":"backlog","priority":"low","assignee":"Sam Rivera","dueDate":"2024-06-24","labels":["Maintenance"],"comments":[]},
+    {"id":"SD-104","title":"Define sprint reporting metrics","description":"Agree on the metrics that help teams understand velocity and delivery health.","status":"done","priority":"high","assignee":"Maya Patel","dueDate":"2024-06-12","labels":["Planning"],"comments":[{"id":"c2","author":"Maya Patel","text":"Shared with the team for feedback.","createdAt":"2024-06-11T15:10:00Z"}]},
+    {"id":"SD-105","title":"Implement keyboard shortcuts","description":"Add practical shortcuts for moving around the workspace more quickly.","status":"backlog","priority":"medium","assignee":"Jordan Lee","dueDate":"2024-06-26","labels":["Enhancement"],"comments":[]},
+    {"id":"SD-106","title":"Set up component tokens","description":"Document and apply the shared visual language for the product UI.","status":"in-progress","priority":"medium","assignee":"Alex Morgan","dueDate":"2024-06-21","labels":["Design system"],"comments":[]},
+    {"id":"SD-107","title":"Improve empty states","description":"Make empty screens feel intentional and guide users toward their next action.","status":"done","priority":"low","assignee":"Alex Morgan","dueDate":"2024-06-08","labels":["UX"],"comments":[]},
+    {"id":"SD-108","title":"Add task bulk actions","description":"Enable teams to update several tasks without repetitive clicks.","status":"review","priority":"high","assignee":"Sam Rivera","dueDate":"2024-06-22","labels":["Feature"],"comments":[]},
+    {"id":"SD-109","title":"Optimize board rendering","description":"Keep the board feeling instant as a workspace grows.","status":"done","priority":"medium","assignee":"Jordan Lee","dueDate":"2024-06-09","labels":["Performance"],"comments":[]},
+    {"id":"SD-110","title":"Write launch checklist","description":"Capture the final steps for shipping the next workspace update.","status":"backlog","priority":"low","assignee":"Maya Patel","dueDate":"2024-06-28","labels":["Planning"],"comments":[]}
+  ]
+}
